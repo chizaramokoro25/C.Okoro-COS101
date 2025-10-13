@@ -40,7 +40,7 @@ plt.xlabel('Subjects')
 plt.ylabel('Average Score')
 plt.show()
 
-df.plot(x='Name', y=['Math', 'English', 'Science'], kind='line', marker='o', title='Student Performance Over Subjects')
+df.plot(x='Name', y=['COS 101', 'PAU CSC 111', 'MTH 101', 'PHY 101', 'PHY 107', 'STA 111', 'PAU CSC 192'], kind='line', marker='o', title='Student Performance Over Subjects')
 plt.ylabel('Scores')
 plt.show()
 
