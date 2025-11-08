@@ -4,5 +4,4 @@ fn main() {
 
     let content_string = String::from("Computer Science");
     println!("Length of content_string is {}", content_string.len());
-
 }
